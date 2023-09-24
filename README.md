@@ -1,10 +1,5 @@
 # Vinted Discord Bot
 
-![GitHub stars](https://img.shields.io/github/stars/chatlxrdd/vinted-discord-bot?style=flat-square)
-![GitHub forks](https://img.shields.io/github/forks/chatlxrdd/vinted-discord-bot?style=flat-square)
-![GitHub issues](https://img.shields.io/github/issues/chatlxrdd/vinted-discord-bot?style=flat-square)
-![GitHub license](https://img.shields.io/github/license/chatlxrdd/vinted-discord-bot?style=flat-square)
-
 **Vinted Discord Bot** is a Discord bot that retrieves the latest items added to specific categories on Vinted and delivers this information to your Discord server. You can configure it to monitor various categories by specifying their IDs.
 
 ## Prerequisites
@@ -48,8 +43,3 @@ Future developments for this bot may include:
 - Enhancing the ability to create and monitor categories.
 
 Feel free to contribute to the project or suggest new features.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
