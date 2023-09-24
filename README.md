@@ -23,3 +23,33 @@ Before running the bot, you need to have Node.js installed, and you should downl
 
    ```bash
    npm install puppeteer
+# Usage
+
+To use the bot, follow these steps:
+
+1. Start the bot by running the following command in the bot's folder:
+
+   ```bash
+   node main.js
+
+The bot will start running and monitor the categories specified in the `main.js` file. You can configure the categories by editing the `catalogIds` field in the script, as explained in the comments.
+
+The bot will fetch the latest item added to each category and send the information to your Discord server.
+
+## Contributing
+
+If you find this bot helpful, consider giving it a star on the [GitHub repository](https://github.com/chatlxrdd/vinted-discord-bot).
+
+## Future Development
+
+Future developments for this bot may include:
+
+- Adding functionality to store data in a database.
+- Enhancing the ability to create and monitor categories.
+
+Feel free to contribute to the project or suggest new features.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
