@@ -29,7 +29,7 @@ To use the bot, follow these steps:
 
 The bot will start running and monitor the categories specified in the `main.js` file. You can configure the categories by editing the `catalogIds` field in the script, as explained in the comments.
 
-The bot will fetch the latest item added to each category and send the information to your Discord server.
+The bot will fetch the latest item added to each category and send the information to your console.
 
 ## Contributing
 
@@ -41,5 +41,6 @@ Future developments for this bot may include:
 
 - Adding functionality to store data in a database.
 - Enhancing the ability to create and monitor categories.
+- Adding discord bot feature.
 
 Feel free to contribute to the project or suggest new features.
