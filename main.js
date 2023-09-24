@@ -17,7 +17,14 @@ const puppeteer = require('puppeteer');
 
 
     
-
+    const itemsPerPage = '9'; // ile itemkow ma sie pojawic w API (mniej = szybciej działający kod)
+    const catalogIds = '1206'; // id katalogu, łatwo znalezc wystarczy sprawdzic url na stronie
+    const colorIds = ''; // to samo co wyzej
+    const brandIds = ''; // jeszcze nie wiem ale sie dowiem ^^
+    const sizeIds = ''; // to samo co wyzej
+    const materialIds = ''; // to samo co wyzej
+    const videoGameRatingIds = ''; //   to samo co wyzej
+    const order = 'newest_first'; // sposob w jaki przedmioty sa ukladane w api (newest_first = od najnowszych) (oldest_first = od najstarszych)
 
 
     await page.goto(`https://www.vinted.pl/api/v2/catalog/items?per_page=${itemsPerPage}&catalog_ids=${catalogIds}&color_ids=${colorIds}&brand_ids=${brandIds}&size_ids=${sizeIds}&material_ids=${materialIds}&video_game_rating_ids=${videoGameRatingIds}&status_ids&order=${order}`)

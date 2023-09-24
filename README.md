@@ -33,6 +33,8 @@ The bot will fetch the latest item added to each category and send the informati
 
 ## Contributing
 
+Thanks to https://github.com/elkolorado for helping me on this repo
+
 If you find this bot helpful, consider giving it a star on the [GitHub repository](https://github.com/chatlxrdd/vinted-discord-bot).
 
 ## Future Development
