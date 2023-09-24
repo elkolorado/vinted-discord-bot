@@ -16,14 +16,7 @@ const puppeteer = require('puppeteer');
     await page.setUserAgent(ua);
 
 
-    const itemsPerPage = '9'; // ile itemkow ma sie pojawic w API (mniej = szybciej działający kod)
-    const catalogIds = '1206'; // id katalogu, łatwo znalezc wystarczy sprawdzic url na stronie
-    const colorIds = ''; // to samo co wyzej
-    const brandIds = ''; // jeszcze nie wiem ale sie dowiem ^^
-    const sizeIds = ''; // to samo co wyzej
-    const materialIds = ''; // to samo co wyzej
-    const videoGameRatingIds = ''; //   to samo co wyzej
-    const order = 'newest_first'; // sposob w jaki przedmioty sa ukladane w api (newest_first = od najnowszych) (oldest_first = od najstarszych)
+    
 
 
 
