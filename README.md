@@ -17,7 +17,7 @@ Before running the bot, you need to have Node.js installed, and you should downl
 2. Run the following command to install the required dependencies, including Puppeteer:
 
    ```bash
-   npm install puppeteer
+   npm i
 # Usage
 
 To use the bot, follow these steps:
