@@ -18,7 +18,7 @@ const puppeteer = require('puppeteer');
 
     
     const itemsPerPage = '9'; // ile itemkow ma sie pojawic w API (mniej = szybciej działający kod)
-    const catalogIds = '1242'; // id katalogu, łatwo znalezc wystarczy sprawdzic url na stronie
+    const catalogIds = '1811'; // id katalogu, łatwo znalezc wystarczy sprawdzic url na stronie
     const colorIds = ''; // to samo co wyzej
     const brandIds = ''; // jeszcze nie wiem ale sie dowiem ^^
     const sizeIds = ''; // to samo co wyzej
