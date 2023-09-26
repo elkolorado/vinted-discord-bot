@@ -18,13 +18,13 @@ const puppeteer = require('puppeteer');
 
     
     const itemsPerPage = '1'; // ile itemkow ma sie pojawic w API (mniej = szybciej działający kod)
-    const catalogIds = '1206'; // id katalogu, łatwo znalezc wystarczy sprawdzic url na stronie
+    const catalogIds = '1231'; // id katalogu, łatwo znalezc wystarczy sprawdzic url na stronie
     const colorIds = ''; // to samo co wyzej
     const brandIds = ''; // jeszcze nie wiem ale sie dowiem ^^
     const sizeIds = ''; // to samo co wyzej
     const materialIds = ''; // to samo co wyzej
     const videoGameRatingIds = '';
-    const price = '' //   to samo co wyzej
+    const price = '90' //   to samo co wyzej
     const currency = 'PLN'; // waluta w jakiej ma byc cena (EUR, PLN, USD)
     const order = 'newest_first'; // sposob w jaki przedmioty sa ukladane w api (newest_first = od najnowszych) (oldest_first = od najstarszych)
 

@@ -1,0 +1,17 @@
+Mezczyzni Ubrania(
+    1206 - Okrycie wierzchne
+    32 - garnitury i marynarki
+    34 - spodnie
+    85 - bielizna i skarpetki'
+    30 - odziez sportowa
+    83 - inne
+    257 - jeans
+    76 - tshierty i topy
+    79 - swetry bluzy
+    80 - szorty
+    84 - stroje kompielowe
+    92 - przebrania i stroje tematyczne
+)
+Mezczyzni buty (
+    1231 - wszystkie buty
+)
