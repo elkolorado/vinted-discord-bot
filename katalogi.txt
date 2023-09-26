@@ -14,4 +14,5 @@ Mezczyzni Ubrania(
 )
 Mezczyzni buty (
     1231 - wszystkie buty
+    1242 - sneakersy i trampki
 )
