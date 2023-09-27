@@ -1,6 +1,6 @@
 const puppeteer = require('puppeteer');
 
-(async () => {
+(async function startScraping() {
     const browser = await puppeteer.launch({
         headless: true
     });
@@ -18,20 +18,21 @@ const puppeteer = require('puppeteer');
 
     
     const itemsPerPage = '1'; // ile itemkow ma sie pojawic w API (mniej = szybciej działający kod)
-    const catalogIds = '1242'; // id katalogu, łatwo znalezc wystarczy sprawdzic url na stronie
+    const catalogIds = ''; // id katalogu, łatwo znalezc wystarczy sprawdzic url na stronie
     const colorIds = ''; // to samo co wyzej
     const brandIds = ''; // jeszcze nie wiem ale sie dowiem ^^
     const sizeIds = ''; // to samo co wyzej
     const materialIds = ''; // to samo co wyzej
     const videoGameRatingIds = '';
-    const price = '90' //   to samo co wyzej
-    const currency = 'PLN'; // waluta w jakiej ma byc cena (EUR, PLN, USD)
+    const price = '' //   to samo co wyzej
+    const currency = ''; // waluta w jakiej ma byc cena (EUR, PLN, USD)
     const order = 'newest_first'; // sposob w jaki przedmioty sa ukladane w api (newest_first = od najnowszych) (oldest_first = od najstarszych)
 
     const seenItems = new Set();
     
     while (true) {
-        await page.goto(`https://www.vinted.pl/api/v2/catalog/items?per_page=${itemsPerPage}&catalog_ids=${catalogIds}&color_ids=${colorIds}&brand_ids=${brandIds}&size_ids=${sizeIds}&material_ids=${materialIds}&video_game_rating_ids=${videoGameRatingIds}&status_ids&price_to=${price}&currency=${currency}&order=${order}`)
+        try {
+            await page.goto(`https://www.vinted.pl/api/v2/catalog/items?per_page=${itemsPerPage}&catalog_ids=${catalogIds}&color_ids=${colorIds}&brand_ids=${brandIds}&size_ids=${sizeIds}&material_ids=${materialIds}&video_game_rating_ids=${videoGameRatingIds}&status_ids&price_to=${price}&currency=${currency}&order=${order}`)
 
         const data = await page.evaluate(() => {
             const rawData = JSON.parse(document.querySelector('body').innerText);
@@ -58,9 +59,17 @@ const puppeteer = require('puppeteer');
             seenItems.add(item.url);
         }
 
-        await page.waitForTimeout(5000); // Wait for 5 seconds before fetching the next item
+        await page.waitForTimeout(5000);
+         // Wait for 5 seconds before fetching the next item
+    } catch (error){
+        console.error('An error occurred:', error);
+        await browser.close();
+        console.log('Restarting the scraping process...');
+        await startScraping(); // Restart the scraping process in case of an error
     }
 
-
+    }
     await browser.close()
 })();
+
+startScraping()
