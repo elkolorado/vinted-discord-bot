@@ -25,10 +25,12 @@ To use the bot, follow these steps:
 1. Start the bot by running the following command in the bot's folder:
 
    ```bash
-   node main.js
+   npm run
 
 The bot will start running and monitor the categories specified in the `main.js` file. You can configure the categories by editing the `catalogIds` field in the script, as explained in the comments.
 
+Configure your discord channel & token, and refresh rate at
+`/modules/config.js`
 The bot will fetch the latest item added to each category and send the information to your console.
 
 ## Contributing

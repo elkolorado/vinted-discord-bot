@@ -17437,5 +17437,162 @@
       "score": 0,
       "matched_queries": null
     }
+  },
+  {
+    "id": 3535563549,
+    "title": "Šaty na karneval, halloween pre deti ",
+    "price": "37.4",
+    "is_visible": 1,
+    "discount": null,
+    "currency": "PLN",
+    "brand_title": "Wicked",
+    "is_for_swap": false,
+    "user": {
+      "id": 142676015,
+      "login": "zdenkavrbovs",
+      "business": false,
+      "profile_url": "https://www.vinted.pl/member/142676015-zdenkavrbovs",
+      "photo": {
+        "id": 152677338,
+        "width": 96,
+        "height": 96,
+        "temp_uuid": null,
+        "url": "https://images1.vinted.net/t/01_002f3_bTxPgpZT4uQSwdQNqXLHTUSg/f800/1692113330.jpeg?s=684271edacfbb6e2c99bb9957e53bea5f9cf4c77",
+        "dominant_color": "#31abc2",
+        "dominant_color_opaque": "#C1E6ED",
+        "thumbnails": [
+          {
+            "type": "thumb310",
+            "url": "https://images1.vinted.net/t/01_002f3_bTxPgpZT4uQSwdQNqXLHTUSg/310x310/1692113330.jpeg?s=79388a8de180421418b249e4965c3fb3a670cacf",
+            "width": 310,
+            "height": 310,
+            "original_size": null
+          },
+          {
+            "type": "thumb150",
+            "url": "https://images1.vinted.net/t/01_002f3_bTxPgpZT4uQSwdQNqXLHTUSg/150x150/1692113330.jpeg?s=33f2be4268be8f73dd1793b116cb263c38bbc3a4",
+            "width": 150,
+            "height": 150,
+            "original_size": null
+          },
+          {
+            "type": "thumb100",
+            "url": "https://images1.vinted.net/t/01_002f3_bTxPgpZT4uQSwdQNqXLHTUSg/100x100/1692113330.jpeg?s=9ee9b56d19698ffed13ea0eb1fd833ff62bb391a",
+            "width": 100,
+            "height": 100,
+            "original_size": null
+          },
+          {
+            "type": "thumb50",
+            "url": "https://images1.vinted.net/t/01_002f3_bTxPgpZT4uQSwdQNqXLHTUSg/50x50/1692113330.jpeg?s=ddd9dfb3f36e2b36c0dd28936b443c68da86d876",
+            "width": 50,
+            "height": 50,
+            "original_size": null
+          },
+          {
+            "type": "thumb20",
+            "url": "https://images1.vinted.net/t/01_002f3_bTxPgpZT4uQSwdQNqXLHTUSg/20x20/1692113330.jpeg?s=7f3ef0228ce136dd40729cfa76ddcf0b1142c8c9",
+            "width": 20,
+            "height": 20,
+            "original_size": null
+          }
+        ],
+        "is_suspicious": false,
+        "orientation": null,
+        "high_resolution": {
+          "id": "01_002f3_bTxPgpZT4uQSwdQNqXLHTUSg",
+          "timestamp": 1692113330,
+          "orientation": null
+        },
+        "full_size_url": "https://images1.vinted.net/tc/01_002f3_bTxPgpZT4uQSwdQNqXLHTUSg/1692113330.jpeg?s=f8d0af20a8898fd57704d37d47ca2271ce30bfc1",
+        "is_hidden": false,
+        "extra": {}
+      }
+    },
+    "url": "https://www.vinted.pl/items/3535563549-saty-na-karneval-halloween-pre-deti",
+    "promoted": false,
+    "photo": {
+      "id": 14345962346,
+      "image_no": 1,
+      "width": 732,
+      "height": 800,
+      "dominant_color": "#28262E",
+      "dominant_color_opaque": "#BFBEC0",
+      "url": "https://images1.vinted.net/t/03_007dd_TkSfiVNMi17iR1LtgboME8xj/f800/1695912299.jpeg?s=800d7b598964b10633859c33b0d2bc06e42dade2",
+      "is_main": true,
+      "thumbnails": [
+        {
+          "type": "thumb70x100",
+          "url": "https://images1.vinted.net/t/03_007dd_TkSfiVNMi17iR1LtgboME8xj/70x100/1695912299.jpeg?s=0ecc83ce77c3a679cf506a011e05c8dc9fe65f25",
+          "width": 70,
+          "height": 100,
+          "original_size": null
+        },
+        {
+          "type": "thumb150x210",
+          "url": "https://images1.vinted.net/t/03_007dd_TkSfiVNMi17iR1LtgboME8xj/150x210/1695912299.jpeg?s=5e1119974567fb0cd66939836cab9b17f01d743b",
+          "width": 150,
+          "height": 210,
+          "original_size": null
+        },
+        {
+          "type": "thumb310x430",
+          "url": "https://images1.vinted.net/t/03_007dd_TkSfiVNMi17iR1LtgboME8xj/310x430/1695912299.jpeg?s=9a0a9e70db515381766a6f7b243c65c03ea76c27",
+          "width": 310,
+          "height": 430,
+          "original_size": null
+        },
+        {
+          "type": "thumb428x624",
+          "url": "https://images1.vinted.net/t/03_007dd_TkSfiVNMi17iR1LtgboME8xj/f800/1695912299.jpeg?s=800d7b598964b10633859c33b0d2bc06e42dade2",
+          "width": 391,
+          "height": 428,
+          "original_size": true
+        },
+        {
+          "type": "thumb624x428",
+          "url": "https://images1.vinted.net/t/03_007dd_TkSfiVNMi17iR1LtgboME8xj/f800/1695912299.jpeg?s=800d7b598964b10633859c33b0d2bc06e42dade2",
+          "width": 570,
+          "height": 624,
+          "original_size": true
+        },
+        {
+          "type": "thumb364x428",
+          "url": "https://images1.vinted.net/t/03_007dd_TkSfiVNMi17iR1LtgboME8xj/f800/1695912299.jpeg?s=800d7b598964b10633859c33b0d2bc06e42dade2",
+          "width": 333,
+          "height": 364,
+          "original_size": true
+        }
+      ],
+      "high_resolution": {
+        "id": "03_007dd_TkSfiVNMi17iR1LtgboME8xj",
+        "timestamp": 1695912299,
+        "orientation": null
+      },
+      "is_suspicious": false,
+      "full_size_url": "https://images1.vinted.net/tc/03_007dd_TkSfiVNMi17iR1LtgboME8xj/1695912299.jpeg?s=12a4874b0f651553624736d78a03f40c35872831",
+      "is_hidden": false,
+      "extra": {}
+    },
+    "favourite_count": 0,
+    "is_favourite": false,
+    "badge": null,
+    "conversion": {
+      "seller_price": "8.0",
+      "seller_currency": "EUR",
+      "buyer_currency": "PLN",
+      "fx_rounded_rate": "4.68",
+      "fx_base_amount": "1.0",
+      "fx_markup_rate": "0.012"
+    },
+    "service_fee": "4.77",
+    "total_item_price": "42.17",
+    "view_count": 0,
+    "size_title": "S",
+    "content_source": "catalog",
+    "search_tracking_params": {
+      "score": 0,
+      "matched_queries": null
+    }
   }
 ]
