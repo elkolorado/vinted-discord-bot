@@ -1,6 +1,7 @@
 // const puppeteer = require('puppeteer');
 const fs = require('fs');
 const Discord = require('discord.js');
+
 const Config = require('./modules/config.js');
 
 const vintedUrl = Config.vintedLink;
